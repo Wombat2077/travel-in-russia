@@ -36,8 +36,4 @@ import TourSelect from './ToursComponents/TourSelect.vue';
     .btn {
         margin: 5px
     }
-    .tmln {
-        width: 75%;
-        margin-inline: auto;
-    }
 </style>
