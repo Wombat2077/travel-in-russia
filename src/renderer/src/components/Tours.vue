@@ -4,7 +4,7 @@
         <Button label="Поиск" class="btn"/>
         <Button label="Избранное" class="btn"/>
     </div>
-    <div v-if="type == 'select'">
+    <div v-if="type == 'select'" class="full">
         <TourSelect />
     </div>
     <div v-else-if="type == 'favorite'">
@@ -35,5 +35,9 @@ import TourSelect from './ToursComponents/TourSelect.vue';
     }
     .btn {
         margin: 5px
+    }
+    .full {
+        width: 100%;
+        height: 100%;
     }
 </style>
